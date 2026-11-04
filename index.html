@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>홍길동 - 자기소개</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f6f9;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+        header {
+            text-align: center;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #eef2f5;
+        }
+        .profile-img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background-color: #e0e7ff;
+            color: #4f46e5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            font-weight: bold;
+            margin: 0 auto 20px;
+        }
+        h1 {
+            font-size: 2rem;
+            color: #111827;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: #4f46e5;
+            font-weight: 600;
+        }
+        section {
+            margin-top: 30px;
+        }
+        h2 {
+            font-size: 1.3rem;
+            color: #1f2937;
+            margin-bottom: 12px;
+            border-left: 4px solid #4f46e5;
+            padding-left: 10px;
+        }
+        p {
+            color: #4b5563;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 8px;
+            color: #4b5563;
+        }
+        ul li::before {
+            content: "•";
+            color: #4f46e5;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        .contact-info {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            font-size: 0.85rem;
+            color: #9ca3af;
+            border-top: 1px solid #eef2f5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 프로필 헤더 -->
+        <header>
+            <div class="profile-img">홍</div>
+            <h1>홍길동</h1>
+            <p class="subtitle">경영정보학과 (Business Information Systems)</p>
+        </header>
+
+        <!-- 소개 섹션 -->
+        <section>
+            <h2>소개 (About Me)</h2>
+            <p>
+                안녕하세요! 데이터와 비즈니스를 연결하는 경영정보학과 <strong>홍길동</strong>입니다.<br>
+                경영학적 통찰력과 IT 기술 지식을 바탕으로 문제 해결과 가치 창출을 도모하고 있습니다.
+            </p>
+        </section>
+
+        <!-- 관심 분야 -->
+        <section>
+            <h2>관심 분야 (Interests)</h2>
+            <ul>
+                <li>비즈니스 데이터 분석 (Business Analytics)</li>
+                <li>IT 시스템 기획 및 프로세스 개선</li>
+                <li>데이터베이스 관리 및 웹 개발</li>
+                <li>디지털 트랜스포메이션 (DX) 전략</li>
+            </ul>
+        </section>
+
+        <!-- 연락처 -->
+        <section>
+            <h2>연락처 (Contact)</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> honggildong@example.com</p>
+                <p><strong>GitHub:</strong> github.com/honggildong</p>
+            </div>
+        </section>
+
+        <!-- 푸터 -->
+        <footer>
+            &copy; 2026 홍길동. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
